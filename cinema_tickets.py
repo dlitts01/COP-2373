@@ -22,7 +22,7 @@ def get_tickets(remaining_tickets):
 
 # Main function controls the ticket sales.
 def main():
-    total_tickets = 20
+    total_tickets = 10
     tickets_sold = 0
     buyers = 0
 
