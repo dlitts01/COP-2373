@@ -5,7 +5,7 @@
 
 # This function asks a buyer how many tickets they want.
 def get_tickets(remaining_tickets):
-    tickets = int(input("How many tickets would you like to buy? "))
+    tickets = int(input("How many tickets would you like to purchase? "))
 
     # Make sure the buyer chooses between 1 and 4 tickets.
     if tickets < 1 or tickets > 4:
