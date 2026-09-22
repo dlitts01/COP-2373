@@ -23,12 +23,12 @@ def get_tickets(remaining_tickets):
 # Main function controls the ticket sales.
 def main():
     total_tickets = 10
-    tickets_sold = 0
+    total_sold = 0
     buyers = 0
 
     # Continue selling tickets until all 20 are sold.
-    while tickets_sold < total_tickets:
-        remaining_tickets = total_tickets - tickets_sold
+    while total_sold < total_tickets:
+        remaining_tickets = total_tickets - total_sold
 
         print()
         print("Tickets remaining:", remaining_tickets)
@@ -37,10 +37,10 @@ def main():
 
         # Only count the purchase if the number is valid.
         if tickets > 0:
-            tickets_sold = tickets_sold + tickets
+            total_sold = total_sold + tickets
             buyers = buyers + 1
 
-            remaining_tickets = total_tickets - tickets_sold
+            remaining_tickets = total_tickets - total_sold
             print("Tickets remaining after purchase:", remaining_tickets)
 
     # Display the final number of buyers.
