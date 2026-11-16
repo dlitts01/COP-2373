@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7938f7-3754-49d0-9d7e-7c3cf56b0b88" name="Changes" comment="Completed Programming Exercise 7">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cinema_tickets_BACKUP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grades.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grades_csv.py" afterDir="false" />
+    <list default="true" id="aa7938f7-3754-49d0-9d7e-7c3cf56b0b88" name="Changes" comment="Completed Programming Exercise CSV">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Drew Bennett-Litts_Debugging_Exercise.executor": "Run",
+    "Python.Poker.executor": "Run",
     "Python.ProgrammingExcercise7.executor": "Run",
     "Python.Programming_Exercise_6.executor": "Run",
     "Python.Spam.executor": "Run",
@@ -70,7 +67,7 @@
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/draom/OneDrive/Desktop/COP2373",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +75,7 @@
       <recent name="C:\Users\draom\OneDrive\Desktop\COP2373" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.grades_csv">
+  <component name="RunManager" selected="Python.Poker">
     <configuration name="Drew Bennett-Litts_Debugging_Exercise" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="COP2373" />
       <option name="ENV_FILES" value="" />
@@ -96,6 +93,31 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drew Bennett-Litts_Debugging_Exercise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Poker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~\OneDrive\Desktop\COP2373\.venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <module name="" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Poker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,6 +226,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Poker" />
         <item itemvalue="Python.grades_csv" />
         <item itemvalue="Python.ProgrammingExcercise7" />
         <item itemvalue="Python.Programming_Exercise_6" />
@@ -336,7 +359,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792969969244</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Completed Programming Exercise CSV">
+      <option name="closed" value="true" />
+      <created>1793578382530</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1793578382531</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Completed Programming Exercise CSV">
+      <option name="closed" value="true" />
+      <created>1793578432628</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1793578432628</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +397,8 @@
     <MESSAGE value="Added spam score programming exercise and technical design document" />
     <MESSAGE value="Completed Programming Exercise 6" />
     <MESSAGE value="Completed Programming Exercise 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Programming Exercise 7" />
+    <MESSAGE value="Completed Programming Exercise CSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Programming Exercise CSV" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COP2373$Spam.coverage" NAME="Spam Coverage Results" MODIFIED="1790277111112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
